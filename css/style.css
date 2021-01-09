@@ -1,0 +1,133 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+.address .adress-color {
+  color: black;
+}
+/* WebStudio */
+.web {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.studio,
+.studio-white {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: black;
+}
+.studio-white {
+  /*color: ; white;*/
+}
+/* /WebStudio */
+/* list*/
+.list-no-style {
+  list-style: none;
+}
+.header a,
+.header a:visited {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  color: #212121;
+  letter-spacing: 0.02em;
+}
+.header a:hover,
+.header a:active {
+  color: #2196f3;
+}
+/*top*/
+.top-side h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /*color: #ffffff;*/
+}
+.top-side .service {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  /*color: #FFFFFF;*/
+}
+/*/top*/
+/*description*/
+.services-description .subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.services-description .description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*/description*/
+h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+/*team*/
+.team h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team .position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*/team*/
+/*contacts*/
+.contacts .location {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: #FFFFFF;*/
+}
+.contacts a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  /*color: rgba(255, 255, 255, 0.6);*/
+}
+/*/contacts*/
