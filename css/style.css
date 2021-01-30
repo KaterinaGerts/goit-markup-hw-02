@@ -1,6 +1,7 @@
 body {
   font-family: Roboto;
   font-style: normal;
+  background-color: #FFFFFF;
 }
 ul {
   list-style: none;
@@ -30,10 +31,13 @@ ul {
   letter-spacing: 0.03em;
   color: black;
 }
-.studio-white 
-  /*color: ; white;*/
+.studio-white {
+  color: #FFFFFF;
+}
+ 
 
 /* /WebStudio */
+
 /* list*/
 .list-no-style {
   list-style: none;
@@ -60,7 +64,7 @@ ul {
   text-transform: uppercase;
   /*color: #ffffff;*/
 }
-.top-side .service .oder-service {
+.top-side .link .link-service {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -68,9 +72,29 @@ ul {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  /*color: #FFFFFF;*/
-}
+  color: #FFFFFF;
+  }
+  .link-service {
+    width: 1600;
+    height: 600;    
+    background-color: #2F303A;
+    color: #FFFFFF;
+    margin: 90px 190 px 90px;
+  }
+  .link {
+  display: block;
+  text-decoration: none; 
+  margin: 30px 700px 200px;
+  width: 200px;
+  height: 50px;
+  color: #FFFFFF;
+  }
+   h1 {
+     margin: 0px;
+     padding: 200px 450px 280pxs;
+   }   
 /*/top*/
+
 /*description*/
 .services-description .subtitle {
   font-weight: bold;
@@ -97,6 +121,11 @@ h3 {
   color: #212121;
 }
 /*team*/
+.team{
+width: 1600;
+height: 650;
+background-color: #F5F4FA;
+}
 .team h4 {
   font-weight: 500;
   font-size: 16px;
@@ -114,13 +143,17 @@ h3 {
   color: #757575;
 }
 /*/team*/
+
 /*contacts*/
+.contacts {
+  background-color: #2F303A;
+}
 .contacts .location {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /*color: #FFFFFF;*/
+  color: #FFFFFF;
 }
 .contacts a {
   font-style: normal;
@@ -128,6 +161,44 @@ h3 {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /*color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 /*/contacts*/
+
+/*Portfolio*/
+/*Links*/
+.links-description .links {
+  text-decoration: none; 
+  background-color: #F5F4FA;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0.615;
+  letter-spacing: 0.03em;
+  color: #212121;  
+}
+.links:hover,
+.links:focus       {
+  color: #FFFFFF;
+  background-color: #2196F3; 
+}
+/*/Links*/
+
+/*Description images*/
+.description-images h4 {
+font-weight: bold;
+margin: 20px 25px;
+padding: ;
+font-size: 18px;
+line-height: 0.5;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.description-images .description {
+ font-weight: 400px;
+ margin: 4px 25px 20px;
+ font-size: 16px;
+ line-height: 1/188;
+ letter-spacing: 0.03em;
+ color: #757575;
+}
+/*Description images*/
