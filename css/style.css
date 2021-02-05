@@ -17,6 +17,7 @@ body {
   font-style: normal;
   font-weight: normal;
   color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
 }
 ul {
   list-style: none;
@@ -144,12 +145,40 @@ line-height: 0.583;
 }
 /* Контакты */
 
-/* Кнопки */
-.links .links-description {
+/*Portfolio*/
+
+/*Кнопки*/
+.links .links-description{
+  text-decoration: none;
   font-size: 16px;
-  line-height: 0.62;
-  text-align: center
-  var(--title-text-color)
-  
+  line-height: 0.615;  
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color)
 }
-/* Кнопки */
+
+.links-description:hover,
+.links-description:focus {
+color:var(--secondary-text-color);
+background-color:var(--accent-color);
+}
+/*/Кнопки*/
+
+/* Описание картинок */
+.image-description .title-bar {
+font-weight: bold;
+font-size: 18px;
+line-height: 0.5;
+color: var(--title-text-color);
+}
+.image-description .title-bar:hover {
+  text-decoration: underline var(--accent-color);
+}
+
+.image-description .description-bar {
+  font-size: 16px;
+  line-height: 0.533;  
+}
+.image-description .description-bar:hover {
+  text-decoration: underline var(--accent-color);
+ }
+/* /Описание картинок */
